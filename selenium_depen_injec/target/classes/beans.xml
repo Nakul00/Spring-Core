@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd"> 
+                           
+
+
+<bean id = "student" class = "com.nakul.selenium_depen_injec.Student">
+<property name="studentName" value="Nakul Padhya"></property>
+<property name="id" value="15"></property>
+</bean>
+
+<bean id = "shiv" class = "com.nakul.selenium_depen_injec.Student">
+<property name="studentName" value="Shiv"></property>
+<property name="id" value="0"></property>
+</bean>
+
+</beans>
+
+
+
+
+
+
+
+
+
